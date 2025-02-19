@@ -3,7 +3,7 @@ Source code for our paper : Unsupervised Fact Error Correction Modeling by Using
 
 Click the links below to view our checkpoints
 
-<a href='https://huggingface.co/yuqinglanok/MFEC/tree/main'><img src='https://img.shields.io/badge/huggingface-MFEC-blue'></a>
+<a href='https://huggingface.co/yuqinglanok/CorrectFEC/tree/main'><img src='https://img.shields.io/badge/huggingface-CorrectFEC-blue'></a>
 
 ## Requirement
 **1. Install the following packages using Pip or Conda under this environment**
@@ -27,7 +27,7 @@ cd CorrectFEC
 ### Train CorrectFEC
 **I will show you how to reproduce the results in the CorrectFEC paper.**
 
-* Go to the ``model`` folder and train the CorrectFEC model [checkpoint](https://huggingface.co/yuqinglanok/MFEC/tree/main/mfec):
+* Go to the ``model`` folder and train the CorrectFEC model [checkpoint](https://huggingface.co/yuqinglanok/CorrectFEC/tree/main/mfec):
 ```
 cd model
 bash train.sh
