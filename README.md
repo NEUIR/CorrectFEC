@@ -1,5 +1,5 @@
-# Language Memory Can Aid Unsupervised Fact Error Correction
-Source code for our paper : Language Memory Can Aid Unsupervised Fact Error Correction.
+# Unsupervised Fact Error Correction Modeling by Using Span-Level Contrastive Learning
+Source code for our paper : Unsupervised Fact Error Correction Modeling by Using Span-Level Contrastive Learning.
 
 Click the links below to view our checkpoints
 
@@ -15,25 +15,25 @@ transformers
 ```
 We provide the version file `requirements.txt` of all our used packages, if you have any problems configuring the environment, please refer to this document.
 
-## Reproduce MFEC
+## Reproduce CorrectFEC
 ### Download Code & Dataset
 * First, use `git clone` to download this project:
 ```bash
-git clone https://github.com/NEUIR/MFEC
-cd MFEC
+git clone https://github.com/NEUIR/CorrectFEC
+cd CorrectFEC
 ```
 * Download link for [data and model](https://drive.google.com/file/d/1Mys4xFUOHEk4ocDt6GPlCwwVVk5b6Lbi/view?usp=sharing)
 
-### Train MFEC
-**I will show you how to reproduce the results in the MFEC paper.**
+### Train CorrectFEC
+**I will show you how to reproduce the results in the CorrectFEC paper.**
 
-* Go to the ``model`` folder and train the MFEC model [checkpoint](https://huggingface.co/yuqinglanok/MFEC/tree/main/mfec):
+* Go to the ``model`` folder and train the CorrectFEC model [checkpoint](https://huggingface.co/yuqinglanok/MFEC/tree/main/mfec):
 ```
 cd model
 bash train.sh
 ```
-### Inference MFEC
-* For the FEVER and SCIFACT dataset: Go to the ``inference`` folder and inference on the MFEC model:
+### Inference CorrectFEC
+* For the FEVER and SCIFACT dataset: Go to the ``inference`` folder and inference on the CorrectFEC model:
 ```
 cd inference
 bash inference_final.sh
